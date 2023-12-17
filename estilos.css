@@ -31,7 +31,13 @@ justify-content: space-between;
         justify-content: center;
         height: calc(100vh - 65px);
         }
-        
+        .Saludo .caja-central img {
+          width: 180px; 
+          height: 180px; 
+          border-radius: 50%;
+          object-fit: cover; 
+      }
+      
             .caja-central{
                 margin-top: 10%;
                 width: 1000px;
