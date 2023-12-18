@@ -120,12 +120,13 @@ padding-right: 20%;
     .cont{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
-        gap: 50 px    }
+        gap: 50 px  }
      .Iconos{
         height:120px;
         width: 120px;
+        margin-right: 10px;
         }
  
 .Mis-Proyectos{
