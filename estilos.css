@@ -27,6 +27,7 @@ justify-content: space-between;
 
        .Saludo{
         display:flex;
+            width: 100%;
         flex-direction: row;
         justify-content: center;
         height: calc(100vh - 65px);
@@ -122,7 +123,7 @@ padding-right: 20%;
         flex-direction: row;
         justify-content: center;
         width: 100%;
-        gap: 50 px  }
+    }
      .Iconos{
         height:120px;
         width: 120px;
@@ -130,35 +131,43 @@ padding-right: 20%;
         }
  
 .Mis-Proyectos{
+  
     background-color: #82daae;
-    height: 600px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   
    }
    .contcards{
-    width: 60%;
+    flex-wrap: wrap;
+    flex-direction: row;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    width: auto;
    }
+
    .Card{
     display: flex;
+    margin: 5px;
     position: relative;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
     border: solid #000000 2px;
     border-radius: 10px;
     padding: 10px;
     background-color:#F2F2F2;
    }
     .Imagenesproyectos{
-    border: solid #000000 2px;
-    border-radius: 10px;
+    border: solid #000000 1px;
+    border-radius: 5px;
+    height: 150px;
+    width: 250px;
+
    }
 
     .Card:hover{

@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="icon" href="favicon.ico">
 </head>   
-<body>
+<body class="d-flex flex-column">
+    <div class="row flex-grow-1 m-0">
+    <div class="col-12">
     <header>   
         <h3 style="color:blanchedalmond;margin-left: 15px;">Federico Manuel Merayo 🤖</h3>
             <div class="redessociales">
@@ -32,9 +34,9 @@
 
         </section>
         <section class="Informacion-Academica">
-            <div class="Caja-sobremi" style="padding: 5%;" >
+            <div class="Caja-sobremi" >
             <h1 style="font-size:200%; margin-bottom: -5px; margin-top: -px;"> Sobre mí</h1> 
-                <p id="Textopresentacion" style="width: 90%; size:110%; line-height:1.2" >
+                <p id="Textopresentacion" style="width: 90%; size:110%; line-height:1.2; font-size: 120%;" >
                     Recibido como Técnico Universitario en Programación con un promedio de 9 en el plazo curricular de 2 años (Nov-2023) en la Universidad Tecnológica Nacional. Fue una experiencia sumamente enriquecedora en la cual pude validar muchas de mis aptitudes individuales y, además, concretar una y otra vez éxitos grupales.
                 </p>
             </div> 
@@ -53,35 +55,65 @@
         </section>
 
         <section class="Mis-Proyectos">
-            <h2>Mis Proyectos</h2>
+            <h1 style="font-size:200%;"> Mis Proyectos</h1> 
               <div class ="contcards"> 
+            
                 <div class="Card">   
                     <h3> Sistema de Gestion Winforms</h3>
-                    <img src="winforms.png" alt="Winforms" style="border-radius: 5px; border: solid #000000 1px;">
+                    <img class="Imagenesproyectos" src="winforms.png" alt="Winforms" >
                     <p>
-                        Sistema para la administracion de Artículos y sus propiedades. Modelo MVC. Colaborativo.
+                        Sistema para la administracion de Artículos y sus propiedades. Colaborativo.
                     </p>
-                    <a href="https://github.com/FmmerayoUTN/PGRM3_TPWINFORM" target="_blank">Repo en Github</a>    
+                    <a href="https://github.com/FedeMerayo/SistemadeGestion_TPWinForms_ProgramacionIII" target="_blank">Repo en Github</a>    
                 </div>
                 <div class="Card">   
                     <h3> Un Gran Cerdo</h3>
-                    <img src="ungrancerdo.png" alt="grancerdo" style="border-radius: 5px; border: solid #000000 1px;width: 99%;">
+                    <img src="ungrancerdo.png" alt="grancerdo" class="Imagenesproyectos" >
                     <p>
                         Juego de dados de Consola en C++. Con animaciones. Individual.
                     </p>
-                    <a href="https://github.com/FmmerayoUTN/UnGranCerdo-dados-" target="_blank">Repo en Github</a> 
+                    <a href="https://github.com/FedeMerayo/Juego_UnGranCerdo" target="_blank">Repo en Github</a> 
                     
                 </div>
                 <div class="Card">   
                     <h3> Qatarsis</h3>
-                    <img src="Qatarsis.png" alt="Qatarsis" style="border-radius: 5px; border: solid #000000 1px;width: 99%;">
+                    <img src="Qatarsis.png" alt="Qatarsis" class="Imagenesproyectos"  >
                     <p>
                         Juego desarrollado en C++ con libreria grafica SFML. Colaborativo.
                     </p>
-                    <a href="https://github.com/FmmerayoUTN/Qatarsis" target="_blank">Repo en Github</a> 
+                    <a href="https://github.com/FedeMerayo/Juego_Qatarsis" target="_blank">Repo en Github</a> 
                     
                 </div>
-              </div>  
+                <div class="Card">   
+                    <h3> Carrito Web</h3>
+                    <img src="carritoweb.png" alt="CarritoWeb" class="Imagenesproyectos">
+                    <p>
+                       Carrito Web desarrollado en C# con Tecnología ASP.NET. Colaborativo.
+                    </p>
+                    <a href="https://github.com/FedeMerayo/WebCarrito_ProgramacionIII" target="_blank">Repo en Github</a> 
+                    
+                </div>
+                <div class="Card">   
+                    <h3> Sistema de Gestion Web Banco</h3>
+                    <img src="tpbanco.png" alt="Qatarsis" class="Imagenesproyectos">
+                    <p>
+                       Sistema de Gestion Web desarrollado con JAVA. Colaborativo.
+                    </p>
+                    <a href="https://github.com/FedeMerayo/SistemadeGestion_Banco_LaboratorioIV" target="_blank">Repo en Github</a> 
+                    
+                </div>
+                <div class="Card">   
+                    <h3> Sistema de Gestion Web Resto</h3>
+                    <img src="tpresto.png" alt="Resto" class="Imagenesproyectos">
+                    <p>
+                       Sistema de Gestion Web desarrollado con JAVA. Colaborativo.
+                    </p>
+                    <a href="https://github.com/FedeMerayo/SistemadeGestionWeb_TPIntegrador_equipo_25" target="_blank">Repo en Github</a> 
+                    
+                </div>
+             
+            </div>
+          </div>  
         </section>
         
     <footer>
@@ -101,5 +133,7 @@
     </form>
   </div>
     </footer>
+</div>
+</div>
     </body>
 </html>
